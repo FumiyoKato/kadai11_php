@@ -1,0 +1,259 @@
+/* <<<<<<<<<< グローバル設定 >>>>>>>>> */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Tsukushi A Round Gothic";
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #0056b3;
+}
+/* <<<<<<<<<< グローバル設定ーーーここまで >>>>>>>>> */
+
+
+/* <<<<<<<<<< index.html >>>>>>>>> */
+/* /// ヘッダー領域 /// */
+.entrance_header {
+    /* width: 100%; */
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgba(255, 255, 255, 0.7); 半透明背景 */
+}
+.entrance_header_btns {
+    display: flex;
+    /* justify-content: flex-end; */
+}
+.entrance_header button {
+    margin: 30px 10px;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    /* transition: background-color 0.3s; */
+}
+.entrance_header button:hover {
+    background-color: #0056b3;
+}
+/* /// メイン画像＆タイトル領域 /// */
+.main-title {
+    /* position: absolute; */
+    background-image: url('../img/AIST_PV.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-title h1 {
+    display: flex;
+    /* flex-direction: column; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    font-size: 48px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明背景で読みやすく */
+    padding: 20px;
+    border-radius: 10px;
+}
+/* <<<<<<<<<< index.htmlーーーここまで >>>>>>>>> */
+
+
+/* <<<<<<<<<< disclaimer.html >>>>>>>>> */
+section {
+    display: block;
+    width: 100%; /* 必要に応じて幅を設定 */
+    margin-bottom: 20px; /* セクション間に余白を追加（任意） */
+}
+/* WDSアイコンパーツ */
+.disclaimer_header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* 空白部分を確保（空白のサイズ調整可能） */
+.disclaimer_header::after {
+    content: '';
+    flex-grow: 1;
+}
+/* 免責事項タイトルパーツ */
+.disclaimer_title {
+    margin-top: 20px;
+    text-align: center;
+}
+h2 {
+    font-size: 24px;
+}
+h1 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+/* 免責事項内容パーツ */
+.disclaimer_contents {
+    max-width: 800px; /* セクションの最大幅を指定（必要に応じて調整） */
+    margin: 0 auto; /* 画面の中央に配置 */
+    padding: 20px;
+    text-align: left;
+    line-height: 1.6; /* 行間の調整 */
+}
+.disclaimer_messege_1 p {
+    text-indent: 1em; /* 段落の先頭を1文字分開ける */
+    margin-bottom: 20px; /* 段落間の余白 */
+}
+/* 承認＆申込みボタンパーツ */
+.approval_btn {
+    text-align: center; /* ボタンを中央に配置 */
+    margin-top: 20px; /* セクションとの間に余白を追加 */
+}
+/* <<<<<<<<<< disclaimer.htmlーーーここまで >>>>>>>>> */
+
+
+/* <<<<<<<<<< login.html >>>>>>>>> */
+/* WDSアイコンパーツ */
+.login_header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* 認証ボタンパーツ */
+.certification_btn {
+    text-align: center; /* ボタンを中央に配置 */
+    margin-top: 60px; /* セクションとの間に余白を追加 */
+}
+/* <<<<<<<<<< login.htmlーーーここまで >>>>>>>>> */
+
+
+/* <<<<<<<<<< mypage.html >>>>>>>>> */
+/* /// ヘッダー領域 /// */
+header {
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.WDS_icon img {
+    padding: 20px;
+    width: 200px;
+    float: left;
+}
+.site_thema {
+    float: left;
+    font-size: 20px;
+    color: #0066CC;
+}
+/* /// コンテンツ領域 /// */
+main {
+    height: auto;
+    max-width: 100%;
+    background-color: white;
+}
+.container{
+    padding: 2%;
+    height: auto;
+    width: 100%;
+    background-color: skyblue;
+}
+/* 事業者名入力パーツ */
+#Applicant {
+    padding-bottom: 20px;
+}
+#label_CompanyName {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000077;
+}
+input#CompanyName {
+    width: 300px;
+    height: 30px;
+}
+/* /// 予測単位の定義領域 /// */
+#FCT_unit {
+    padding-left: 10px;
+}
+
+/* 予測単位名パーツ */
+.FCT_unit_Name {
+    font-size: 20px;
+    color: #0000BB;
+}
+input#FCT_unit_Name {
+    width: 500px;
+    height: 30px;
+}
+
+/* /// 発電所スペック領域 /// */
+.PVgroup_spec {
+    padding: 1% 5%;
+    display: flex; /* 子要素を横並びに */
+    flex-direction: row; /* 子要素を２段に */
+    flex-wrap: wrap; /* 子要素を折り返して表示 */
+}
+.PVgroup_wrapper {
+    width: 50%; /* 子要素を50%ずつ横並びに */
+}
+
+/* 予測単位追加設定ボタンパーツ */
+.add_FCT_unit {
+    padding: 10px;
+}
+#add_unit_button {
+    font-size: 20px;
+}
+
+/* PV出力予測サービス申し込みボタンパーツ */
+#apply {
+    padding-top: 50px;
+}
+#apply_button {
+    font-size: 20px;
+    display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+	padding: 1rem 1rem;
+	font-weight: bold;
+	border-radius: 100vh;
+	border-bottom: 7px solid #CC3366;
+	background: #FF66CC;
+	color: #fff;
+}
+
+/* 設定保存日時表示パーツ */
+#timestampDisplay {
+    font-size: 12px;       /* 小さいフォントサイズ */
+    color: white;          /* 白文字 */
+    margin-top: 5px;       /* ボタンとの間に少しスペース */
+    margin-left: 10px;     /* ボタンの横に配置 */
+    display: inline-block; /* ボタンと横並びに配置 */
+}
+/* <<<<<<<<<< mypage.htmlーーーここまで >>>>>>>>> */
+
+
+/* <<<<<<<<<< application.html >>>>>>>>> */
+.application_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ビューポート全体の高さに調整 */
+    text-align: center;
+}

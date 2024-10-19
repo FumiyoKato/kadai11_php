@@ -1,0 +1,5 @@
+<<<<< さくらサーバで稼働 >>>>>
+$db_name = "weather-ds_pvfctdb_test0";    //データベース名
+$db_id   = "weather-ds";      //アカウント名
+$db_pw   = "234-boom";       //パスワード
+$db_host = "mysql3101.db.sakura.ne.jp"; //DBホスト
