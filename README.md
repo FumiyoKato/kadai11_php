@@ -13,7 +13,7 @@
 - ID: test1 or test2 or test3
 - PW: test1 or test2 or test3
 - 新規ID: 適当にお好きなIDをどうぞ(test1/test2/test3以外)
-- 一般PW: 適当にお好きなIDをどうぞ(test1/test2/test3以外)
+- 新規PW: 適当にお好きなIDをどうぞ(test1/test2/test3以外)
 
 ## ⑤工夫した点・こだわった点
 - ログインしてるユーザーの登録情報のみ可視化するようにした点（実際にローンチ後はそのような制御が必要なので）
